@@ -5,6 +5,7 @@
     <style>
       /* CSS for navigation bar */
       .navbar {
+        font-family: Arial, Helvetica, sans-serif;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -16,6 +17,14 @@
         color: #bfa995;
         text-decoration: none;
         margin-right: 1rem;
+      }
+      /* CSS for logo */
+      .logo {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 1rem;
+        max-width: 300px;
+
       }
       /* CSS for flexbox category menu */
       .category-menu {
@@ -29,30 +38,31 @@
         text-align: center;
       }
       /* CSS for video */
-      .video {
+      .image {
         width: 100%;
         height: 0;
         padding-bottom: 56.25%; /* 16:9 aspect ratio */
-        position: relative;
+        position:relative;
       }
-      .video iframe {
+      .packed-meat {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 50%;
+        opacity: 70%;
       }
     </style>
   </head>
   <body>
     <header class="navbar">
-      <a href="#">Shopping</a>
-      <h1>Meat & Vino Hermosa Beach</h1>
+      <a href="#">Wine Selection</a>
+      <img class="logo" src="logo/banner-transparent-back.png">
       <a href="#">Directions to Store</a>
     </header>
     <main>
-      <div class="video">
-        <iframe src="https://youtu.be/t7xKEKg-YzY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div class="image">
+        <img class="packed-meat" src="images/wine-bw.jpg"> 
       </div>
       <div class="category-menu">
         <div class="category">
