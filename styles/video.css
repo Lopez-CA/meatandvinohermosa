@@ -1,0 +1,8 @@
+.top-video {
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 2px;
+max-width:fit-content;
+
+}
