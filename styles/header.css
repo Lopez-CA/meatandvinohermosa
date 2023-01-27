@@ -3,12 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f2f2f2;
-  color: #bfa995;
+  background-color: #0000;
+  color: #59192a;
   padding: 1rem;
 }
 .navbar a {
-  color: #bfa995;
+  color: #59192a;
   text-decoration: none;
   margin-right: 1rem;
 }
@@ -36,5 +36,12 @@
   display: flex;
   flex-wrap: wrap;
   padding: 1rem;
-  max-width: 300px;
+  max-width: 200px;
+}
+
+.text-logo {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  max-width: 400px;
 }
