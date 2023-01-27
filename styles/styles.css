@@ -1,0 +1,26 @@
+/* CSS for flexbox category menu */
+.category-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.category-menu .category {
+  width: 30%;
+  padding: 1rem;
+  text-align: center;
+}
+/* CSS for video */
+.image {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  position:relative;
+}
+.packed-meat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  opacity: 70%;
+}
