@@ -3,17 +3,17 @@
   <head>
     <title>Meat & Vino Hermosa Beach</title>
     
-    <link href="styles/general.css" rel="stylesheet" type="text/css">
+    <link href="styles/main.css" rel="stylesheet" type="text/css">
     <link href="styles/header.css" rel="stylesheet" type="text/css">
     <link href="styles/video.css" rel="stylesheet" type="text/css">
     <link href="styles/sidebar.css" rel="stylesheet" type="text/css">
     <link href="styles/styles.css" rel="stylesheet" type="text/css">
         
-  </head>
-  
-  
+  </head>  
   
   <body>
+
+    
     <div class="top-video">
       <video id="bg-video" autoplay muted loop >
         <source src="video/background-walk-to-ocean.mp4" type="video/mp4">
@@ -21,45 +21,42 @@
     </div>
     
 
-    <header class="navbar">
+    <nav class="navbar">
+      
       <div class="left-section">
         <img class="logo" src="logo/sunset-cow.png">
-        
-       
-        
+        <img class="text-logo" src="logo/text-logo-left-align-antique.png">
+      
       </div>
+      
       <div class="middle-section">
-        <img class="text-logo" src="logo/text-logo-oe-antique.png">
-      
-      
-      
-      
+        <div class="menu">
+          <a href="#" class="is-active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Steak</a>
+          <a href="#">Wine</a>
+          <a href="#">Beer</a>
+
+        </div>              
       </div>
+
       <div class="right-section">
-        <a href="pages/wine.html">Wine Selection</a>
+                
+        <img class="instagram" src="icons/instagram-antique.png">
         
-        <img class="instagram" src="icons/Instagram.png">
-        <img class="hamburger-menu" src="icons/hamburger-menu-icon.png">
-      </div>      
-    </header>
-   
-
-
-
-    <nav>
-
+        <button class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>           
+        
+      </div>
 
     </nav>
-
-
-
-
+    
 
     
-    
-    <main>
-      
-      
+    <main>      
       <div class="category-menu">
        
         <div class="category">
@@ -80,7 +77,8 @@
     </main>
  
  
- 
+    <script src="main.js"></script>    
+    
  
   </body>
 </html>

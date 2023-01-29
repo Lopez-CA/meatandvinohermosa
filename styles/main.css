@@ -1,17 +1,20 @@
-p {
-  margin-top: 0;
-  margin-bottom: 0;
+:root {
+  --primary: #1a5a73;
+  --light: #f2e6d8;
+  --dark: #59192a;
 }
+
 
 body {
   /* This style below will be inherited */
   font-family:Arial, Helvetica, sans-serif;
   color: antiquewhite;
   margin: 0;
-  padding-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0;
   background-color: #000000;
 }
 
 
+h1 {
+  color: #f2913d;
+}
