@@ -1,7 +1,9 @@
 :root {
-  --primary: #1a5a73;
-  --light: #f2e6d8;
-  --dark: #59192a;
+  --primary: #d9a714;
+  --light: #f2e6d8;  
+  --dark: #2f242c;
+  --medium: #1d5a73;
+  --highlight: #e67f09;
 }
 
 
@@ -11,10 +13,15 @@ body {
   color: antiquewhite;
   margin: 0;
   padding: 0;
-  background-color: #000000;
+  background-color: var(--medium);
 }
 
 
 h1 {
   color: #f2913d;
+}
+
+h2 {
+  color: var(--light);
+  text-decoration: none;
 }

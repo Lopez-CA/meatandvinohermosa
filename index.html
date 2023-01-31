@@ -11,70 +11,85 @@
         
   </head>  
   
-  <body>
-
-    
-    <div class="top-video">
-      <video id="bg-video" autoplay muted loop >
-        <source src="video/background-walk-to-ocean.mp4" type="video/mp4">
-      </video>
-    </div>
+  <body> 
     
 
-    <nav class="navbar">
-      
-      <div class="left-section">
-        <img class="logo" src="logo/sunset-cow.png">
-        <img class="text-logo" src="logo/text-logo-left-align-antique.png">
-      
-      </div>
-      
-      <div class="middle-section">
-        <div class="menu">
-          <a href="#" class="is-active">Home</a>
-          <a href="#">About</a>
-          <a href="#">Steak</a>
-          <a href="#">Wine</a>
-          <a href="#">Beer</a>
+    <nav class="navbar">      
+      <div class="left-section">        
+        <img class="text-logo" src="logo/centered-text-logo-antique.png">      
+      </div> 
 
-        </div>              
+      <div class="middle-section">        
+     
       </div>
 
       <div class="right-section">
-                
-        <img class="instagram" src="icons/instagram-antique.png">
         
+        <img class="instagram" src="icons/instagram-antique.png"> 
+        <span></span>       
+        <div class="menu">          
+          <a href="#">About</a>
+          <a href="#">Curb Side</a>
+          <a href="#">Location</a>
+          <a href="#">Contact Us</a>
+        </div>           
         <button class="hamburger">
           <span></span>
           <span></span>
           <span></span>
-        </button>           
-        
+        </button>        
       </div>
-
     </nav>
+
+
+
+<div class="container">
+   
+    <div class="category-container">
+      <div class="category">
+        <a href="#">
+          <img src="images/cow-3.png" alt="meats">
+          <h2>Meat</h2>
+        </a>
+      </div>
+      <div class="category">
+        <a href="#">
+          <img src="images/wine-glasses-1.png" alt="wine">
+          <h2>Wine List</h2>
+        </a>
+      </div>
+      <div class="category">
+        <a href="#">
+          <img src="images/beer-2.png" alt="beer">
+          <h2>Beer</h2>
+        </a>
+      </div>
+      <div class="category">
+        <a href="#">
+          <img src="images/ranch-2.png" alt="ranch">
+          <h2>Pre-Order</h2>
+        </a>
+      </div>
+    </div>
+    <div class="video-container">
+
+      <video id="videoBG" controls poster="video/top-banner.png" autoplay muted loop>
+    <source src="video/background-vid-12sec.mp4" type="video/mp4">
+       </video>
+      
+      </div>
+      
+    <div class="hours-container">
+      <img src="images/hours.png" alt="Hours of Operation">
+    </div>
     
 
     
     <main>      
-      <div class="category-menu">
-       
-        <div class="category">
-          <h2>Beef</h2>
-          <p>Steaks, burgers, roasts, and more.</p>
-        </div>
-       
-        <div class="category">
-          <h2>Pork</h2>
-          <p>Chops, bacon, sausage, and more.</p>
-        </div>
-       
-        <div class="category">
-          <h2>Poultry</h2>
-          <p>Chicken, turkey, duck, and more.</p>
-        </div>
-      </div>
+      
     </main>
+
+  </div>
  
  
     <script src="main.js"></script>    

@@ -3,7 +3,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  
+   
   position:relative;
   top: 0;
   left: 0;
@@ -11,8 +11,9 @@
   z-index: 99;  
   
   align-items: center;
-  background-color: rgba(89, 25, 42, 0.75);
-  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.60);
+  color: var(--light);
+  border-bottom: 2px solid var(--highlight);
 
   }
 
@@ -20,40 +21,34 @@
   
 /* CSS for logo */
 
-.logo {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem;
-  max-width: 150px;
-}
+
 
 .text-logo {
   display: flex;
   flex-wrap: wrap;
-  padding: 1rem;
-  max-width: 275px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  max-width: 200px;
+  transition: transform .3s ease-in-out;
+  cursor: pointer;
 }
 
-
-/* CSS for sections */
+.text-logo:hover {
+  transform: scale(1.05);
+}
 
 .left-section {
   display: flex;
-  align-items:center;
-  color: antiquewhite;
-  text-decoration: none;
-}
-
-
-.middle-section {
-  display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .right-section {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  color: var(--light);
+  
 }
 
 
@@ -93,7 +88,7 @@
 
 .hamburger:hover span:nth-child(2) {
   transform: translateX(10px);
-  background-color: var(--primary);
+  background-color: var(--highlight);
 }
 
 .hamburger.is-active span:nth-child(1) {
@@ -109,7 +104,7 @@
 }
 
 .hamburger.hamburger.is-active:hover span{
-  background-color: var(--primary);
+  background-color: var(--highlight);
 }
 
 /* CSS for Menu */
@@ -132,12 +127,26 @@
 }
 
 .menu a:hover {
-  background-color: var(--primary);
+  background-color: var(--highlight);
 }
 
 .logo {
   display: none;
 }
+
+.instagram {
+  height: 24px;
+  padding: 3rem;
+  transition: transform .15s ease-in-out;
+  cursor: pointer;
+}
+
+.instagram:hover {
+  transform: scale(1.2);
+}
+
+
+
 
 @media (min-width: 768px) {
   .hamburger {
@@ -154,9 +163,6 @@
 
 
 
-.instagram {
-  height: 24px;
-  padding: 1rem;
-}
+
 
 
