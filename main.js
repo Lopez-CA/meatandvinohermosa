@@ -13,3 +13,15 @@ categories.forEach(category => {
     // Add your custom logic here
   });
 });
+
+const icons = document.querySelectorAll(".icon");
+
+icons.forEach(icon => {
+  icon.addEventListener("mouseenter", function() {
+    this.style.transform = "scale(1.2)";
+  });
+  
+  icon.addEventListener("mouseleave", function() {
+    this.style.transform = "scale(1)";
+  });
+});

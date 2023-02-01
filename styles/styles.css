@@ -80,6 +80,7 @@
 .hours-container {
   text-align: center;
   padding-top: 10rem;
+  padding-bottom: 10rem;
 }
 
 .hours-container img {
@@ -97,3 +98,9 @@
     padding-top: 5rem;
   }
 }
+
+.titles:hover {
+  scale: 1.1;
+
+}
+

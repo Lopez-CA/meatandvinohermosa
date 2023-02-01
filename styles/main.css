@@ -18,10 +18,27 @@ body {
 
 
 h1 {
-  color: #f2913d;
+  color: var(--primary);
 }
 
 h2 {
   color: var(--light);
-  text-decoration: none;
+  text-decoration: none;  
+}
+
+
+a:link {
+  color: var(--light)
+}
+
+a:visited {
+  color: var(--medium);
+}
+
+a:hover {
+  color: var(--highlight);
+}
+
+a:active {
+  color: var(--primary);
 }
