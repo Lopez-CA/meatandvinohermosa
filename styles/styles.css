@@ -1,38 +1,120 @@
-/* CSS for flexbox category menu */
-.category-menu {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.category-menu .category {
-  width: 30%;
-  padding: 1rem;
-  text-align: center;
-}
+/* flexbox category menu */
 
-.packed-meat {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  opacity: 70%;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  justify-content: space-around; 
+  justify-items: space-between;  
+  padding: 10px;
+  background-image: url(images/wine-bw.png); 
+  
+  /* background-color: aqua; */
 }
 
-.content {
-  position: relative;
-  z-index: 1;
-}
-
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
+.category-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 16px;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
   justify-content: center;
-  align-items: center;
+  justify-items:center;
+  background-image: url(images/wine-bw.png);
+  
+  /* background-color: blue;  */
+  
 }
 
-.video-container {
+.category {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+ 
+  /* background-color: brown; */
+}
+
+.category img {
+  width:300px;
+  margin: 20px 0;
+  border-radius: 50%;
+  opacity: .75;
+  transition: transform .3s ease-in-out;  
+}
+
+.category img:hover {
+  opacity: 100%;
+  transition: opacity .2s ease-in-out;
+  transform: scale(1.1);
+  transition: scale .2s ease-in;  
+}
+
+
+/* category text titles */
+
+
+.titles {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+
+.titles:hover {
+  scale: 1.1;
+}
+
+/* introduction container */
+.intro {
+  display: grid;
+  position: relative;
+  height: 1fr;
+  padding-top: 50px;
+  justify-content: space-around;
+  justify-items: center;
+  background: color url(images/meat-background.png);
+  z-index: 100;  
+}
+
+
+
+
+
+
+/* flexbox for hours of operation */
+.hours-container {
+  display: grid;
+  padding-bottom: 50px;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  /* background-color: darkolivegreen; */
+}
+
+.hours-container img {
+  width: 80%;
+  
+  
+}
+
+.hours-container img:hover {
+  transform: scale(1.05);
+  transition: scale .5s ease-in-out;
+  cursor: pointer;
+}
+
+
+.instagram-container {
+  display: grid;  
+  width: 100%;
+  justify-items: center;
+  
+  
+}
+
+
+/* flexbox for video */
+/* .video-container {
   width: 50%;
   height: 0;
   padding-bottom: 0;
@@ -46,61 +128,20 @@
   width: 100%;
   height: 100%;
   z-index: -1;
-}
+} */
 
-.category-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 80%;
-  margin: 100px 0;
-}
-
-.category {
-  width: 25%;
-  text-align: center;
-  text-decoration: none;
-}
-
-.category img {
-  width: 80%;
-  margin: 20px 0;
-  opacity: .75;
-  transition: transform .3s ease-in-out;
-}
-
-.category img:hover {
-  opacity: 100%;
-  transition: opacity .2s ease-in-out;
-  transform: scale(1.1);
-  transition: scale .2s ease-in;
-  
-}
-
-.hours-container {
-  text-align: center;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
-.hours-container img {
-  width: 60%;
-  margin: 20px 0;
-}
-
+/* change for mobile  */
 @media (max-width: 768px) {
   .category-container{
-    flex-direction: row;
+    grid-template-columns: 1fr;
     height: 100%;
     margin: 30px;
   }
-  .hours-container{
+  .hours-container img{
+    width: 100%;
     padding-top: 5rem;
   }
 }
 
-.titles:hover {
-  scale: 1.1;
 
-}
 

@@ -3,14 +3,14 @@
   --light: #f2e6d8;  
   --dark: #2f242c;
   --medium: #1d5a73;
-  --highlight: #e67f09;
+  --highlight: #cc9900;
 }
 
 
 body {
   /* This style below will be inherited */
   font-family:Arial, Helvetica, sans-serif;
-  color: antiquewhite;
+  color: var(--light);
   margin: 0;
   padding: 0;
   background-color: var(--medium);
@@ -28,17 +28,24 @@ h2 {
 
 
 a:link {
-  color: var(--light)
+  color: var(--light);
+  text-decoration: none;
 }
 
 a:visited {
   color: var(--medium);
+  text-decoration: none;
 }
 
 a:hover {
   color: var(--highlight);
+  text-decoration: none;
 }
 
 a:active {
   color: var(--primary);
+  text-decoration: none;
 }
+
+
+
