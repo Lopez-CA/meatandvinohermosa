@@ -133,9 +133,17 @@
 /* change for mobile  */
 @media (max-width: 768px) {
   .category-container{
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-items: space-between;
     height: 100%;
     margin: 30px;
+  }
+
+  .category-container img{
+    height: 180px;
+    width: 180px;
+    padding: 10px;
+    
   }
   .hours-container img{
     width: 100%;
