@@ -15,6 +15,8 @@ position: relative;
 
 }
 
+/* video changes for mobile */
+
 @media (min-aspect-ratio: 16/9) {
   #videoBG {
     width: 100%;

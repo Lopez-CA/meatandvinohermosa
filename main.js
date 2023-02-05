@@ -25,3 +25,13 @@ icons.forEach(icon => {
     this.style.transform = "scale(1)";
   });
 });
+
+
+$(document).ready(function() {
+  $("#newsletter-form").submit(function(event) {
+    event.preventDefault();
+    var email = $("#email-input").val();
+    // Send a request to your server to store the email address
+    // ...
+  });
+});
