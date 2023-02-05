@@ -170,6 +170,7 @@
     justify-items: space-between;
     height: 100%;
     padding-top: 10px;
+    padding-bottom: 100px;
     margin: 10px;
   }
 
@@ -177,7 +178,12 @@
     height: 180px;
     width: 180px;
     padding: 10px;
+
     
+  }
+
+  .category img{
+    margin: 0px;
   }
   
   .prime-steaks {
