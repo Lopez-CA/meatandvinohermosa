@@ -186,6 +186,10 @@
     margin: 0px;
   }
   
+.intro {
+  background-image: url(../images/banner-background-sunset-2.png);
+}
+
   .prime-steaks {
     grid-template-columns: 1fr;
 
@@ -203,9 +207,14 @@
     padding-bottom: 175px;
   }
 
+.quote {
+  
+
+}
+
   .quote img{
     width: 80%;
-    padding-left: 20px;
+    padding-left: 10px;
   }
 }
 

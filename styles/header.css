@@ -11,6 +11,7 @@
   z-index: 99;  
   
   align-items: center;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.60);
   color: var(--light);
   border-bottom: 3px solid var(--primary);
