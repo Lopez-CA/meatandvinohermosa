@@ -195,7 +195,8 @@
   }
 
   .about-us {
-    padding: 15px;
+    line-height: 0;
+    padding: 20px;
   }
 }
 
