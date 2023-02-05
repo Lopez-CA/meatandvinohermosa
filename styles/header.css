@@ -4,15 +4,15 @@
   display: flex;
   justify-content: space-between;
   font-size: 20px; 
-  position:relative;
+  position:fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 99;  
+  z-index: 100;  
   
   align-items: center;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.60);
+  background-color: rgba(0, 0, 0, 0.90);
   color: var(--light);
   border-bottom: 3px solid var(--primary);
   }
