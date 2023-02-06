@@ -1,41 +1,77 @@
+ 
+ header{
+  background-color: var(--dark);
+}
+ 
+ 
+ 
  /* CSS for navigation bar */
  .navbar {
-  margin: 0 auto;
+  min-height: 70px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
   font-size: 20px; 
   position:fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;  
-  
-  align-items: center;
-  width: 100%;
+  z-index: 99 ;     
   background-color: rgba(0, 0, 0, 0.90);
   color: var(--light);
   border-bottom: 3px solid var(--primary);
   }
 
-  /* flexbox for nav sections */
-.left-section {
-  display: flex;
-  justify-content: space-between;
+  .nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .nav-link{
+    transition: 0.7s ease;
+  }
+
+  .nav-link:hover {
+    color: var(--highlight);
+    cursor: pointer;
 }
 
-.right-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: var(--light);  
-}
 
+/* .menu {
+    display: none;
+    flex: 1 1 0%;
+    justify-content: flex-start;
+    margin: 0 -16px;
+  }
   
-/* CSS for logo */
+  .menu a {
+    color: var(--light);
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: .4s;
+    padding: 8px 16px;
+    border-radius: 99px;
+  }
+  
+  .menu a.is-active, .menu a:hover {
+    background-color: var(--highlight);
+  }
+   */
+
+
+
+   /* CSS for logo */
+.left-section {
+  display: flex;  
+} 
+
 .text-logo {
   display: flex;
-  flex-wrap: wrap;
-  padding-left: 40px;
+  padding-left: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
   max-width: 200px;
@@ -48,33 +84,17 @@
 }
 
 /* CSS for Menu */
-.menu {
-  display: none;
-  flex: 1 1 0%;
-  justify-content: flex-end;
-  padding-right: 20px;
-  margin: 0 -16px;
-  
-}
-
-.menu a {
-  color: #fff;
-  margin: 0 16px;
-  font-weight: 600;
-  text-decoration: none;
-  transition: 0.4s;
-  padding: 8px 16px;
-  border-radius: 99px;
-}
-
-.menu a:hover {
-  background-color: var(--highlight);
+.right-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--light);  
 }
 
 
 /* CSS for icons */
 .hamburger {
-  display: block;
+  display: none;
   position: relative;
   z-index: 1;
   padding-right: 20px;
@@ -87,7 +107,6 @@
   background: none;
   cursor: pointer;
 }
-
 
 .hamburger span {
   display: block;
@@ -142,17 +161,33 @@
 
 
 /* navbar changes for mobile */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .hamburger {
-    display: none;
+    display: block;
   }
-  .menu {
-    display: flex;
-  }
-  
-  
-}
 
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 120px;
+    gap: 6px;
+    flex-direction: column;
+    background-color: var(--dark);
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    transition: .3s;
+  }
+
+  .nav-item{
+    margin: 20px 0;
+  }
+
+  .nav-menu.is-active{
+    left: 0;
+  }
+
+}
 
 
 
