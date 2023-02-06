@@ -74,7 +74,7 @@
 /* introduction container */
 .intro {
   display: grid;
-  position: relative;
+  position: sticky;
   line-height: 2;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -83,7 +83,7 @@
   background-color: rgba(255, 255, 255, .40);
   background-image: url(../images/banner-background-sunset.png);
  
-  z-index: 100;  
+  z-index: 98;  
 }
 
 .quote {
@@ -95,7 +95,7 @@
 
 .quote img {
   position:relative;
-  width: 75%;
+  width: 100%;
 }
 
 .about-us {
@@ -238,7 +238,7 @@
 
   .quote img{
     width: 100%;
-    padding-left: 10px;
+    padding-left: 10px;    
   }
 }
 
