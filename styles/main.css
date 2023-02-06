@@ -6,10 +6,8 @@
   --highlight: #cc9900;
 }
 
-
-
 li{
-  list-style: none;
+  list-style: none;  
 }
 
 body {
@@ -20,6 +18,8 @@ body {
 }
 
 
+
+/* Titles */
 h1 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
@@ -27,13 +27,11 @@ h1 {
   color: var(--primary);
 }
 
-
-
 h2 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   font-size: 25px;
-  color: var(--medium);
+  color: var(--light);
 }
 
 h3 {
@@ -45,6 +43,9 @@ h3 {
 }
 
 
+
+
+/* Text */
 a:link {
   color: var(--light);
   text-decoration: none;
@@ -52,7 +53,7 @@ a:link {
 
 
 a:visited {
-  color: var(--medium);
+  color: var(--light);
   text-decoration: none;
 }
 
@@ -75,6 +76,9 @@ p {
 }
 
 
+
+
+/* Mobile */
 
 @media (max-width: 768px) {
 
