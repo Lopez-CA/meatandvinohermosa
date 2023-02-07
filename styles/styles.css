@@ -19,7 +19,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 16px;
-  padding-top: 50px;
+  padding-top: 20px;
   padding-bottom: 20px;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -67,7 +67,8 @@
 .titles:hover {  
   transition: opacity .2s ease-in-out;
   transform: scale(1.1);
-  transition: scale .2s ease-in; 
+  transition: scale .2s ease-in;
+  
 
 }
 
@@ -81,14 +82,14 @@
   justify-content: center;
   justify-items: center;
   background-color: rgba(255, 255, 255, .40);
-  background-image: url(../images/banner-background-sunset.png);
+  background-image: url(../images/background-cvs.png);
  
   z-index: 98;  
 }
 
 .quote {
   display: grid;
-  padding-top: 80px;
+  padding-top: 30px;
   padding-bottom: 100px;
   justify-content: center;
 }
@@ -104,12 +105,6 @@
   text-indent: 20px;
   padding: 100px;
 }
-
-
-
-
-
-
 
 
 /* flexbox for hours of operation */
@@ -214,8 +209,7 @@
   
 .intro {
   height: 225px;
-  width: 100%;
-  background-image: url(../images/banner-background-sunset-2.png);
+  width: 100%;  
 }
 
   .prime-steaks {
