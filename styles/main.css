@@ -8,7 +8,8 @@
 
 li{
   list-style: none;  
-}
+}  
+
 
 body {
   /* This style below will be inherited */
@@ -44,15 +45,14 @@ h3 {
 
 
 
-
 /* Text */
 a:link {
   color: var(--light);
   text-decoration: none;
 }
 
-a:link:hover {
-  color: var(--highlight);
+a:link:hover {  
+  color: var(--highlight);  
 }
 
 a:visited {
@@ -61,8 +61,8 @@ a:visited {
 }
 
 a:hover {
-  color: var(--highlight);
   text-decoration: none;
+  color: var(--highlight);
 }
 
 a:active {

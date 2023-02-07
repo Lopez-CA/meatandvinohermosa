@@ -26,15 +26,18 @@
     color: var(--light);
   }
 
+
   .nav-link{
     color: var(--light);
     transition: 0.7s ease;
   }
 
-  .nav-link:hover {
-    color: var(--highlight);
+  .nav-link:hover {    
     cursor: pointer;
+    color: var(--highlight);
+    background-color: var(--highlight);
 }
+
 
 
    /* CSS for logo */

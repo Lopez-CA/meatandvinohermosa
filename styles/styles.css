@@ -65,9 +65,11 @@
 }
 
 .titles:hover {  
+  color: var(--highlight);
   transition: opacity .2s ease-in-out;
   transform: scale(1.1);
   transition: scale .2s ease-in;
+  
   
 
 }
