@@ -1,0 +1,59 @@
+.wine-list {
+  display: grid; 
+  grid-template-columns: 1fr; 
+}
+
+/* .cabernet-sauvignon {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  justify-items: center;
+} */
+
+.prime-wine {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around;
+  justify-items: center;
+  text-align: center;
+  background-color: white;
+  /* background-color: darkolivegreen; */
+}
+
+.prime-wine img {
+  height: 600px;  
+}
+
+.prime-wine img:hover {
+  transform: scale(1.05);
+  transition: scale .5s ease-in-out;
+  cursor: pointer;
+}
+
+
+
+
+/* change for mobile  */
+@media (max-width: 768px) {
+
+  .prime-wine {
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: whitesmoke;
+
+  }
+  
+  .prime-wine img{
+    padding-top: 5rem;
+    height: 400px;
+    
+  }
+
+
+
+
+}

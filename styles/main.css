@@ -2,7 +2,7 @@
   /* --primary: #d9a714; */
   --primary: #f2762e;
   --light: #f2e6d8;  
-  --dark: #a63c24;
+  --dark: #f2865e;
   --medium: #03658c;
   --highlight: #f29d35;
   --black:  #011c26;  
@@ -51,6 +51,17 @@ h3 {
   text-align: center;  
 }
 
+h4 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  font-size: 35px;
+  color: var(--dark);
+}
+
+h4:hover {
+  color: var(--medium);
+  
+}
 
 
 /* Text */
@@ -95,7 +106,14 @@ p {
 
 p {
   line-height: 1.5;
-  text-align: left;
+  text-align: center;
 }  
+
+h4 {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 35px;
+  color: var(--dark);
+}
 
 }
