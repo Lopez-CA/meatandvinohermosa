@@ -139,7 +139,7 @@
 /* change for mobile  */
 @media (max-width: 768px) {
   .grid-container {
-    padding-top: 120px;
+    padding-top: 100px;
   }
 
   .category-container{
