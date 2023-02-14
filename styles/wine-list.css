@@ -1,3 +1,16 @@
+.wine-categories {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 50px;
+
+}
+
+
+.store-heading {
+  display: grid;
+  justify-items: center;
+}
+
 .store-category {
   display: grid;
   grid-template-columns: 30% 70%;
@@ -12,8 +25,7 @@
 
 /* chat gpt code */
 .store-category-container {
-  display: grid;
-  grid-template-rows: 10% 90%;
+  display: grid;  
   justify-items: center;
   flex-wrap: wrap;
   background-color: white;
@@ -55,16 +67,18 @@
 }
 
 
+
+
 /* End Chat GPT code */
 
 
 
 .wine-list {
   display: grid;
-  grid-template-rows: 1fr 6fr;
+  /* grid-template-rows: 1fr 6fr; */
   justify-items: center;
   justify-content: left; 
-    
+  padding-top: 20px;  
   background-color: white;   
 }
 
@@ -81,21 +95,10 @@
   color: black;
 }
 
-/* .wine-list a:link {
-  color: var(--highlight);
-} */
-
-
-/* .cabernet-sauvignon {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  justify-items: center;
-} */
 
 .prime-wine {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   padding-top: 50px;
   padding-bottom: 50px;
   justify-content: space-around;
@@ -106,7 +109,7 @@
 }
 
 .prime-wine img {
-  width: 100%;  
+  height: 600px;  
 }
 
 .prime-wine img:hover {
@@ -128,6 +131,14 @@
 /* change for mobile  */
 @media (max-width: 768px) {
 
+
+
+  .wine-categories {
+    grid-template-columns: 1fr;
+    padding-bottom: 30px;
+  
+  }
+  
   
   
   /* Store Category Intro */
@@ -166,7 +177,7 @@
   
   .prime-wine {
     grid-template-columns: 1fr 1fr;
-    padding: 0;
+    padding-top: 0;
     padding-left: 10px;
     padding-right: 10px;
     
@@ -174,7 +185,7 @@
   }
   
   .prime-wine img{
-    padding-top: 5rem;
+    padding-top: 30px;
     height: 400px;
     
   }
