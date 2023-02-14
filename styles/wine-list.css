@@ -1,7 +1,44 @@
+.store-category {
+  background-color: white;
+}
+
+.store-category h4 {
+  text-align: center;
+  color: var(--highlight);
+}
+
+
 .wine-list {
   display: grid; 
-  grid-template-columns: 1fr; 
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  background-color: white;
+  height: 300px;
+   
 }
+
+
+.wine-list h5 {
+  color: black;
+  text-align: center;
+}
+
+.wine-list li {
+  color: black;
+  text-align: center;
+}
+
+.wine-list a:visited {
+  color: black;
+}
+
+.wine-list a:link {
+  color: var(--highlight);
+}
+
+
+
+
 
 /* .cabernet-sauvignon {
   display: grid;
@@ -18,12 +55,12 @@
   justify-content: space-around;
   justify-items: center;
   text-align: center;
-  background-color: white;
+  background-color:white;
   /* background-color: darkolivegreen; */
 }
 
 .prime-wine img {
-  height: 600px;  
+  width: 100%;  
 }
 
 .prime-wine img:hover {
@@ -32,7 +69,14 @@
   cursor: pointer;
 }
 
-
+.by-carlos {
+  position: absolute;
+  top: 30%;
+  left: 32%;
+  transform: translate(-50%, -50%);
+  max-width: 40%;
+  
+}
 
 
 /* change for mobile  */
@@ -43,7 +87,7 @@
     padding: 0;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: whitesmoke;
+    
 
   }
   
@@ -53,6 +97,13 @@
     
   }
 
+  .by-carlos {    
+    top: 28%;
+    left: 45%;    
+    max-width: 85%;
+    
+  }
+  
 
 
 

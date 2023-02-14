@@ -9,14 +9,19 @@
   justify-items: space-between;  
   padding: 0;  
   z-index: 99;
-  padding-top: 130px; 
+  padding-top: 100px; 
+}
+
+.grid-container img{
+  padding: 0;
+  margin: 0;
 }
 
 .category-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 0;
-  padding-top: 0;
+  padding-top: 30px;
   padding-bottom: 0px;
   grid-column-gap: 0;
   grid-row-gap: 0;
@@ -69,31 +74,24 @@
 }
 
 .background {
-  position: absolute;
+  position: relative;
   top: 0;
-  left: 0;
+  left: 0;  
   width: 100%;
-  height: 100%;
+  /* height: 800px; */
   object-fit: cover;
 }
 
 .quote {
   position: absolute;
-  top: 22%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 80%;
-  max-height: 80%; 
+ 
 }
 
-.by-carlos {
-  position: absolute;
-  top: 28%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 80%;
-  max-height: 80%;
-}
+
 
 .about-us {
   display: grid;
@@ -139,7 +137,7 @@
 /* change for mobile  */
 @media (max-width: 768px) {
   .grid-container {
-    padding-top: 100px;
+    padding-top: 110px;
   }
 
   .category-container{
@@ -167,7 +165,7 @@
   }
 
   .quote {
-    top: 22%;
+    top: 75%;
   }
 
   .prime-steaks {
