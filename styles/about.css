@@ -1,0 +1,26 @@
+.family {
+  position: absolute;
+  top: 25%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  max-width: 40%;
+ 
+}
+
+
+
+
+/* change for mobile  */
+@media (max-width: 768px) {
+
+
+.family {
+  top: 88%;
+  left: 40%;
+  max-width: 70%;
+}
+
+
+
+
+}
