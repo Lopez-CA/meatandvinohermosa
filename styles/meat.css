@@ -1,0 +1,69 @@
+.steak-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: white;
+}
+
+
+.meat-categories {
+  display: grid;
+  padding-top: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 50px;
+  /* background-color: aqua; */
+
+}
+
+
+.meat-item {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ /* background-color: brown; */
+
+}
+
+
+.meat-item-title {
+  /* background-color: chartreuse; */
+}
+
+.meat-item-photo {
+  display: grid;
+  justify-items: center;
+  /* background-color: blue; */
+}
+
+.meat-item-photo img{
+  height: 300px;
+}
+
+.meat-item-info {
+  /* background-color: blueviolet; */
+}
+
+
+
+/* change for mobile  */
+@media (max-width: 768px) {
+
+
+  .steak-list {
+    grid-template-columns: 1fr;
+  }
+
+.meat-item {
+  
+}
+
+
+  .meat-categories {
+    grid-template-columns: 1fr;
+    padding-bottom: 30px;
+  
+  }
+
+ 
+
+  
+  
+}
