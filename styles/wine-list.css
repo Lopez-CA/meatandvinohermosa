@@ -1,4 +1,6 @@
 .store-category {
+  display: grid;
+  grid-template-columns: 30% 70%;
   background-color: white;
 }
 
@@ -8,36 +10,80 @@
 }
 
 
-.wine-list {
-  display: grid; 
-  grid-template-columns: 1fr 1fr 1fr;
+/* chat gpt code */
+.store-category-container {
+  display: grid;
+  grid-template-rows: 10% 90%;
+  justify-items: center;
   flex-wrap: wrap;
   background-color: white;
-  height: 300px;
-   
 }
 
 
+.category-title {
+  justify-content: center;
+}
+
+
+.product-image {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit:contain;
+}
+
+.product-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: transform 0.3s ease-in-out;
+  transform: translateY(100%);
+}
+
+.product-info.show {
+  transform: translateY(0);
+}
+
+
+/* End Chat GPT code */
+
+
+
+.wine-list {
+  display: grid;
+  grid-template-rows: 1fr 6fr;
+  justify-items: center;
+  justify-content: left; 
+    
+  background-color: white;   
+}
+
 .wine-list h5 {
-  color: black;
-  text-align: center;
+  text-align: left;
 }
 
 .wine-list li {
   color: black;
-  text-align: center;
+  text-align: left;
 }
 
 .wine-list a:visited {
   color: black;
 }
 
-.wine-list a:link {
+/* .wine-list a:link {
   color: var(--highlight);
-}
-
-
-
+} */
 
 
 /* .cabernet-sauvignon {
@@ -82,6 +128,42 @@
 /* change for mobile  */
 @media (max-width: 768px) {
 
+  
+  
+  /* Store Category Intro */
+  
+  .store-category {
+    grid-template-columns: 1fr 2fr;    
+  }
+  
+  .store-category-container {
+    grid-template-rows: 60px 600px;    
+  }
+
+  .category-title {
+    height: 100px;    
+  }
+
+  .category-title h5{
+    text-align: center;
+  }
+  
+  .store-category h6 {
+    font-size: 18px;
+    
+    
+  }
+
+
+  .product-image {
+    position: relative;
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+  }   
+  
+  
   .prime-wine {
     grid-template-columns: 1fr 1fr;
     padding: 0;

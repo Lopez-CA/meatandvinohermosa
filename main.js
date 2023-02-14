@@ -21,3 +21,21 @@ document.querySelectorAll(".nav-link").forEach(n => n.
 
 // Add click event listeners to image blocks
 
+
+
+
+const images = document.querySelectorAll('.product-image');
+
+images.forEach((image) => {
+  const info = image.querySelector('.product-info');
+
+  image.addEventListener('click', () => {
+    images.forEach((i) => {
+      if (i !== image) {
+        i.querySelector('.product-info').classList.remove('show');
+      }
+    });
+
+    info.classList.toggle('show');
+  });
+});
