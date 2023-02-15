@@ -9,6 +9,8 @@
 .store-heading {
   display: grid;
   justify-items: center;
+  background-color: black;
+  border-bottom: 3px solid var(--primary);
 }
 
 .store-category {
@@ -128,6 +130,11 @@
 }
 
 
+.wine-info {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
 /* change for mobile  */
 @media (max-width: 768px) {
 
@@ -137,9 +144,7 @@
     grid-template-columns: 1fr;
     padding-bottom: 30px;
   
-  }
-  
-  
+  }  
   
   /* Store Category Intro */
   
@@ -160,8 +165,7 @@
   }
   
   .store-category h6 {
-    font-size: 18px;
-    
+    font-size: 18px;  
     
   }
 
@@ -197,7 +201,10 @@
     
   }
   
-
+.wine-info {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 
 }
