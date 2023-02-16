@@ -2,10 +2,11 @@
   /* --primary: #d9a714; */
   --primary: #f2762e;
   --light: #f2e6d8;  
-  --dark: #f2865e;
   --medium: #03658c;
-  --highlight: #f29d35;
-  --black:  #011c26;  
+  --dark: #03738c;
+  --highlight: #f2a516;
+  --night: #011c26;
+  --black:  #00090d;  
 }
 
 li{
