@@ -1,0 +1,44 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* change for mobile  */
+@media (max-width: 768px) {
+
+
+  .family {
+    top: 88%;
+    left: 40%;
+    max-width: 70%;
+  }
+  
+  
+#display {
+  display: none;
+
+}
+
+#sunset-portrait {
+  display: none;
+}
+
+  
+  
+  }
+
+
+
+
+
