@@ -20,7 +20,9 @@
   max-width: 70%;
 }
 
-
+#parking img {
+  height: 300px;
+}
 
 
 }
