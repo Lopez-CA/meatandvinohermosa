@@ -91,7 +91,9 @@
  
 }
 
-
+.directions {
+  padding-top: 100px;
+}
 
 .about-us {
   display: grid;
@@ -115,7 +117,8 @@
 }
 
 .prime-steaks img {
-  height: 600px;  
+  height: 600px;
+    
 }
 
 .prime-steaks img:hover {
@@ -140,6 +143,7 @@
   justify-content: space-around;
   position: relative;
   padding: 15px;
+  padding-bottom: 200px;
 }
 
 .city-images img {

@@ -32,6 +32,9 @@ h1 {
   color: var(--primary);
 }
 
+h1:hover {
+  color: var(--medium);
+}
 
 
 
