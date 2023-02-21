@@ -27,6 +27,12 @@
   text-align: center;
 }
 
+
+.meat-item-container {
+  padding-bottom: 30px;
+}
+
+
 .meat-item {
  display: grid;
  grid-template-columns: 1fr 1fr;

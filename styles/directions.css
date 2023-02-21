@@ -1,0 +1,95 @@
+.bottom-quote {
+  display: grid;
+  align-content: center;
+  position: relative;
+  padding: 100px;
+  padding-bottom: 200px;
+}
+
+.bottom-quote img {
+  padding-bottom: 200px;
+}
+
+.top-image {
+  position: relative;
+  width: 100%;
+}
+
+.top-image img {
+  /* height: 200px; */
+}
+
+.directions {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#parking img {
+  width: 100%;
+}
+
+.landscape {
+  display:grid;
+  width: 100%;
+}
+
+#map-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  position: relative;
+  
+   
+}
+
+#map {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  
+
+}
+
+
+@media (max-width: 768px) {
+
+
+  #motor {
+    display: none;
+  
+  }
+  
+  #sunset-portrait {
+    display: none;
+  }
+  
+   
+  #parking img { 
+    width: 100%;
+    
+  } 
+  
+  .bottom-quote {
+  padding-right: 50px;
+  }
+
+  .bottom-quote img {
+    width: 400px;
+    
+  }
+
+.top-image img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+}
