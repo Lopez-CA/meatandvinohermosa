@@ -127,20 +127,23 @@
 }
 
 
+
+
+
+
+
 /* change for mobile  */
 @media (max-width: 768px) {
 
-
-  .family {
+.family {
     top: 88%;
     left: 40%;
     max-width: 70%;
-  }
+}
   
   
 #motor {
   display: none;
-
 }
 
 #sunset-portrait {
@@ -149,8 +152,7 @@
 
  
 #parking img { 
-  width: 100%;
-  
+  width: 100%;  
 }  
 
 .short-menu {
@@ -166,14 +168,12 @@
 .short-menu-category h3 {
   text-align: left;
   font-size: 28px;
-
 }
 
 .short-menu-item {
   grid-template-columns: 3fr 1fr 1fr;
   padding-left: 25px;
-  padding-right: 0px;
-  width: 100%;
+  padding-right: 0px;  
 }
 
 .daily-wine-title {
