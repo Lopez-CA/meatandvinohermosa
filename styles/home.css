@@ -26,16 +26,19 @@
 
 .short-menu-item {
   display: grid;
-  grid-template-columns: 3fr .5fr .5fr;
+  grid-template-columns: 3fr .75fr .75fr;
   /* grid-template-rows: 1fr 1fr; */
   justify-items:flex-start;
-  padding-left: 40px;
+  padding-left: 150px;
+  padding-right: 150px;
 
 }
 
 .short-menu-item p {
+  font-size: 22px;
   color: black;
 }
+
 
 .short-menu-item h3 {
   color: var(--dark);
@@ -156,7 +159,7 @@
 
 
 .short-menu-category {
-  padding-left: 40px;
+  padding-left: 25px;
   padding-bottom: 20px;
 }
 
@@ -168,6 +171,9 @@
 
 .short-menu-item {
   grid-template-columns: 3fr 1fr 1fr;
+  padding-left: 25px;
+  padding-right: 40px;
+  width: 100%;
 }
 
 .daily-wine-title {
