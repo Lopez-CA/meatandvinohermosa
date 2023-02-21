@@ -5,13 +5,13 @@
 
 .landscape {
   display:grid;
-  width: 100%;
 }
 
 .short-menu-container {
   padding-top: 100px;
   margin: 0;
   align-items: center;
+  
   }
 
 .short-menu {
