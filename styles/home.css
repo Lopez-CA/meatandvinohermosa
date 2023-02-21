@@ -172,7 +172,7 @@
 .short-menu-item {
   grid-template-columns: 3fr 1fr 1fr;
   padding-left: 25px;
-  padding-right: 40px;
+  padding-right: 0px;
   width: 100%;
 }
 
