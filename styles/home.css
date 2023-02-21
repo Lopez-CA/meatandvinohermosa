@@ -107,6 +107,7 @@
 .weekend-special {
   padding-top: 50px;
   padding-bottom: 50px;
+  border-bottom: 3px solid var(--primary);
   /* background-color: var(--medium); */
 }
 
@@ -114,7 +115,9 @@
   cursor: pointer;
 }
 
-
+.weekend-special-title {
+  padding-bottom: 10px;
+}
 
 
 
@@ -169,6 +172,10 @@
   padding-left: 0px;
 }
 
+
+.weekend-special img {
+  width: 40%
+}
 
 
   }
