@@ -98,12 +98,12 @@
   padding-top: 100px;
 }
 
-.about-us {
+/* .about-us {
   display: grid;
   justify-items: center;
   text-indent: 20px;
   padding: 100px;
-}
+} */
 
 
 /* flexbox for hours of operation */
@@ -141,6 +141,7 @@
 
 .city-images {
   display: grid;
+  width: 100%;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   justify-content: space-around;

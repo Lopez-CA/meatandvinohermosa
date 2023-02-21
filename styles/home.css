@@ -1,5 +1,10 @@
 
-#parking {
+#parking img {
+  width: 100%;
+}
+
+.landscape {
+  display:grid;
   width: 100%;
 }
 
@@ -7,7 +12,7 @@
   padding-top: 100px;
   margin: 0;
   align-items: center;
-}
+  }
 
 .short-menu {
   display: grid;
@@ -15,6 +20,7 @@
   background-color: white;
   padding-top: 0px;
   padding-bottom: 100px;
+  
 }
 
 
@@ -43,8 +49,9 @@
 
 
 .short-menu-category {
+  width: 100%;
   padding-top: 10px;
-  padding-left: 40px;
+  padding-bottom: 40px;
   background-color: white;
   }
 
@@ -56,11 +63,56 @@
 }
 
 
+.wine-special-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;  
+  align-items: center;
+  background-color: white;
+
+}
+
+.wine-special-container img  {
+  height: 500px;
+  
+  
+}
+
+.daily-wine-title {
+  padding-left: 450px;
+}
 
 
 
+.daily-wine-title h2 {
+  color: var(--primary);
+}
+
+.daily-wine-title p {
+  color: black;
+}
 
 
+.daily-wine-item {
+  width: 200px;
+  justify-content: space-between;
+  background-color: white;
+  padding-bottom: 20px;
+}
+
+.daily-wine-item img {
+  padding-left: 40px;
+}
+
+
+.weekend-special {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  /* background-color: var(--medium); */
+}
+
+.weekend-special h2:hover {
+  cursor: pointer;
+}
 
 
 
@@ -88,14 +140,19 @@
 }
 
  
-#parking img {
- 
+#parking img { 
   width: 100%;
   
 }  
 
 .short-menu {
   grid-template-columns: 1fr;
+}
+
+
+.short-menu-category {
+  padding-left: 40px;
+  padding-bottom: 20px;
 }
 
 .short-menu-category h3 {
@@ -106,6 +163,10 @@
 
 .short-menu-item {
   grid-template-columns: 3fr 1fr 1fr;
+}
+
+.daily-wine-title {
+  padding-left: 0px;
 }
 
 

@@ -128,13 +128,38 @@
 .instagram {
   height: 24px;
   padding: 3rem;
+  padding-left: 5px;
+  padding-right: 45px;
   transition: transform .15s ease-in-out;
   cursor: pointer;
+}
+
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+  padding-right: 20px;
 }
 
 .instagram:hover {
   transform: scale(1.2);
 }
+
+
+.user-icon {
+  height: 26px;
+  padding: 3rem;
+  padding-left: 5px;
+  padding-right: 30px;
+  transition: transform .15s ease-in-out;
+  cursor: pointer;
+}
+
+.user-icon:hover {
+  transform: scale(1.2);
+}
+
 
 
 
@@ -166,6 +191,17 @@
   .nav-menu.is-active{
     left: -40px;
   }
+
+  .icons {
+    padding-right: 0px;
+  }
+
+
+  .instagram {
+    padding-right: 20px;
+  }
+
+
 
 }
 
