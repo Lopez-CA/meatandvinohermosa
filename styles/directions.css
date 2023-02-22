@@ -1,3 +1,21 @@
+.top-image {
+  position: relative;
+  width: 100%;
+}
+
+.top-image img {
+  position: relative;
+  width: 100%;  
+}
+
+
+.directions {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+}
+
+
 .city-images {
   display: grid;
   width: 100%;
@@ -9,13 +27,24 @@
   padding-bottom: 50px;
 }
 
+
 .city-images img {
   height: 600px;
 }
 
 
+.drone-parking {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  width: 100%;
+}
 
-
+.drone-parking img{
+  position: absolute;
+  
+  
+}
 
 
 .bottom-quote {
@@ -26,48 +55,11 @@
   padding-bottom: 200px;
 }
 
+
 .bottom-quote img {
   padding-bottom: 200px;
 }
 
-.top-image {
-  position: relative;
-  width: 100%;
-}
-
-.top-image img {
-  width: 100%;
-  /* height: 200px; */
-}
-
-.directions {
-  display: grid;
-  grid-template-columns: 1fr;
-  position: relative;
-}
-
-#parking.landscape {
-  width: 100%;
-  align-items: center;
-  position: relative;
-}
-
-
-
-#parking {
-  align-items: center;
-  justify-content: center;
-}
-
-
-#parking img {
-  width: 100%;
-}
-
-.landscape {
-  width: 100%;
-  
-}
 
 #map-container {
   display: grid;
@@ -75,10 +67,9 @@
   width: 90%;
   margin: 0 auto;
   padding-bottom: 100px;
-  position: relative;
-  
-   
+  position: relative;   
 }
+
 
 #map {
   position: relative;
@@ -86,14 +77,27 @@
   left: 0;
   width: 100%;
   height: 600px;
-  
-
 }
+
 
 
 @media (max-width: 768px) {
 
 
+  .top-image img {
+    width: 100%;
+  }
+  
+  
+  .city-images {
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 20px;  
+  }
+  
+  .city-images img {
+    height: 350px;
+  }  
+  
   #motor {
     display: none;
   
@@ -102,19 +106,11 @@
   #sunset-portrait {
     display: none;
   }
-  
-  
-  #parking.landscape {
+   
+  .directions {
     width: 100%;
-    align-items: center;
+
   }
-
-
-  #parking img { 
-    width: 100%;
-    align-self: center;
-    
-  } 
   
   .bottom-quote {
   padding-right: 0px;
@@ -125,19 +121,6 @@
     
   }
 
-.top-image img {
-  width: 100%;
-}
-
-
-.city-images {
-  grid-template-columns: 1fr 1fr;
-  padding-bottom: 20px;  
-}
-
-.city-images img {
-  height: 350px;
-}
 
 
 
