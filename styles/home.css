@@ -47,8 +47,6 @@
 }
 
 
-
-
 .quote {
   position: absolute;
   top: 80%;
@@ -79,34 +77,30 @@
 }
 
 
-
-
-
-
 #parking img {
   width: 100%;
   object-fit: cover;
 }
 
-.landscape {
-  display:grid;
-  width: 100%;
+.drone-parking {
+  position: absolute;
+  
 }
+
 
 .short-menu-container {
   padding-top: 100px;
   margin: 0;
-  align-items: center;
-  
+  align-items: center;  
   }
+
 
 .short-menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: white;
   padding-top: 0px;
-  padding-bottom: 100px;
-  
+  padding-bottom: 100px;  
 }
 
 
@@ -116,8 +110,8 @@
   justify-items:flex-start;
   padding-left: 150px;
   padding-right: 150px;
-
 }
+
 
 .short-menu-item p {
   font-size: 22px;
