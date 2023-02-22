@@ -46,6 +46,14 @@
   position: relative;
 }
 
+#parking.landscape {
+  width: 100%;
+  align-items: center;
+  position: relative;
+}
+
+
+
 #parking {
   align-items: center;
   justify-content: center;
@@ -96,7 +104,8 @@
   }
   
   
-  .landscape {
+  #parking.landscape {
+    width: 100%;
     align-items: center;
   }
 
