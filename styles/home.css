@@ -1,3 +1,87 @@
+.category-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+  justify-content: center;
+  justify-items:center;  
+}
+
+.category {
+  display: grid;
+  justify-content: center;
+  justify-items: center;  
+}
+
+.category img {
+  width: 285px;
+  margin: 0;
+  border-radius: 50%;
+  opacity: .75;
+  transition: transform .3s ease-in-out;  
+}
+
+.category img:hover {
+  opacity: 100%;
+  transition: opacity .2s ease-in-out;
+  transform: scale(1.1);
+  transition: scale .2s ease-in;  
+}
+
+
+/* category text titles */
+.titles {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;  
+}
+
+.titles:hover {  
+  color: var(--highlight);
+  transition: opacity .2s ease-in-out;
+  transform: scale(1.1);
+  transition: scale .2s ease-in;
+}
+
+
+
+
+.quote {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80%;
+ 
+}
+
+.directions {
+  padding-top: 100px;
+  position: relative;
+}
+
+.city-images {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  justify-content: space-around;
+  position: relative;
+  padding: 15px;
+  padding-bottom: 50px;
+}
+
+.city-images img {
+  height: 600px;
+}
+
+
+
+
+
 
 #parking img {
   width: 100%;
@@ -29,7 +113,6 @@
 .short-menu-item {
   display: grid;
   grid-template-columns: 3fr .75fr .75fr;
-  /* grid-template-rows: 1fr 1fr; */
   justify-items:flex-start;
   padding-left: 150px;
   padding-right: 150px;
@@ -142,6 +225,30 @@
     left: 40%;
     max-width: 70%;
 }
+
+.category-container{
+  grid-template-columns: 1fr 1fr;
+  justify-items: space-around;
+  height: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+}
+
+.category-container img{
+  height: 150px;
+  width: 150px;
+  padding: 5px;    
+}
+
+.category img{
+  margin: 0px;        
+}
+
+.intro {
+  height: 400px;
+  width: 100%;  
+}
   
   
 #motor {
@@ -187,6 +294,23 @@
   width: 40%
 }
 
+.quote {
+  top: 75%;
+}
+
+.directions {
+  padding-top: 20px;
+}
+
+
+.city-images {
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 20px;  
+}
+
+.city-images img {
+  height: 350px;
+}
 
   }
 

@@ -1,5 +1,4 @@
-:root {
-  /* --primary: #d9a714; */
+:root {  
   --primary: #f2762e;
   --light: #f2e6d8;  
   --medium: #03658c;
@@ -37,7 +36,6 @@ h1:hover {
 }
 
 
-
 /* Category Titles */
 h2 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -50,8 +48,6 @@ h2:hover {
   color: var(--primary);
   
 }
-
-
 
 
 /* List Titles */
@@ -77,8 +73,6 @@ h4:hover {
   
 }
 
-
-
 /* Store Titles and Headings */
 
 h5 {
@@ -93,12 +87,6 @@ h6 {
   font-weight: 800;
   color: var(--black);
 }
-
-
-
-
-
-
 
 
 

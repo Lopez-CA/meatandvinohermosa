@@ -85,18 +85,6 @@
   object-fit: cover;
 }
 
-.quote {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  max-width: 80%;
- 
-}
-
-.directions {
-  padding-top: 100px;
-}
 
 /* .about-us {
   display: grid;
@@ -139,20 +127,6 @@
 }
 
 
-.city-images {
-  display: grid;
-  width: 100%;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  justify-items: center;
-  justify-content: space-around;
-  position: relative;
-  padding: 15px;
-  padding-bottom: 50px;
-}
-
-.city-images img {
-  height: 600px;
-}
 
 
 
@@ -186,13 +160,7 @@
     width: 100%;  
   }
 
-  .quote {
-    top: 75%;
-  }
-
-  .directions {
-    padding-top: 20px;
-  }
+ 
   
 
   .prime-steaks {
@@ -237,21 +205,6 @@
   flex-direction: column;
 }
 
-
-.city-images {
-  grid-template-columns: 1fr 1fr;
-  padding-bottom: 20px;
-  
-  
-  
-}
-
-.city-images img {
-  height: 350px;
-}
-
-
-/* chat gpt */
 #newsletter-form {
   display: flex;
   width: 30%;

@@ -1,3 +1,23 @@
+.city-images {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  justify-content: space-around;
+  position: relative;
+  padding: 15px;
+  padding-bottom: 50px;
+}
+
+.city-images img {
+  height: 600px;
+}
+
+
+
+
+
+
 .bottom-quote {
   display: grid;
   align-content: center;
@@ -101,7 +121,14 @@
 }
 
 
+.city-images {
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 20px;  
+}
 
+.city-images img {
+  height: 350px;
+}
 
 
 
