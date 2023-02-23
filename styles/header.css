@@ -160,6 +160,30 @@
   transform: scale(1.2);
 }
 
+.btn-1 {
+  width: 140px;
+  height: 40px;
+  border: none;
+  color: var(--light);
+  background-color: var(--black);
+  border-radius: 4px;
+  /* box-shadow: inset 0 0 0 0 var(--night); */
+  transition: ease-out .1s;
+  font-size: 24px;
+  outline: none;
+}
+
+.btn-1:hover {
+  background-color: var(--highlight);
+  cursor: pointer;
+  color: var(--night);
+  opacity: 90%;
+}
+
+.btn-1 a:hover {
+  color: var(--white);
+}
+
 
 
 
@@ -201,7 +225,9 @@
     padding-right: 20px;
   }
 
-
+.btn-1 {
+  background-color: var(--medium);
+}
 
 }
 

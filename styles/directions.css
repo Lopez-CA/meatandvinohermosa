@@ -41,18 +41,17 @@
 }
 
 .drone-parking img{
-  width: 100%;
-  
+  width: 100%;  
   
 }
 
 
 .bottom-quote {
   display: grid;
-  align-content: center;
+  align-items: center;
   position: relative;
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 75px;
 }
 
 
@@ -112,13 +111,11 @@
 
   }
   
-  .bottom-quote {
-  padding-right: 0px;
-  }
+  
 
   .bottom-quote img {
-    width: 400px;
-    
+    width: 380px;  
+    padding-bottom: 0px;
   }
 
 
