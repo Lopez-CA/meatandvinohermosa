@@ -59,7 +59,9 @@
 .directions {
   padding-top: 100px;
   position: relative;
+  justify-content: space-around;
 }
+
 
 .city-images {
   display: grid;
@@ -113,7 +115,7 @@
 
 
 .short-menu-item h3 {
-  color: var(--dark);
+  color: var(--primary);
 }
 
 .short-menu-item h3:hover {
@@ -131,7 +133,7 @@
   }
 
 .short-menu-category h3 {
-  color: var(--primary);
+  color: var(--black);
   padding-top: 40px;
   margin: 0;
   font-size: 50px;
@@ -143,6 +145,7 @@
   grid-template-columns: 1fr 1fr;  
   align-items: center;
   background-color: white;
+  padding-top: 20px;
 
 }
 
@@ -195,12 +198,19 @@
 }
 
 .wine-list {
-  padding-top: 20px;
+  padding-top: 0px;
 }
 
+.compact-description {
+  display: grid;
+  justify-content: center;
+}
 
-
-
+.wine-list-button-container {  
+  padding-top: 20px;
+  text-align: center;
+  justify-items: center;
+}
 
 
 
@@ -212,7 +222,7 @@
   grid-template-columns: 1fr 1fr;
   justify-items: space-around;
   height: 100%;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   margin: 0px;
 }
@@ -293,6 +303,12 @@
 .city-images img {
   height: 350px;
 }
+
+.compact-description {
+  grid-template-columns: 300px;
+  
+}
+
 
   }
 

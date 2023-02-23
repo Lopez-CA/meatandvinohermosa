@@ -43,10 +43,10 @@
         
         <ul class="nav-menu">
           
-            <li><button class="btn-1"><a href="pages/about.html" class="nav-item">About</a></button></li>
-            <li><button class="btn-1"><a href="pages/directions.html" class="nav-item">Directions</a></button></li>
-            <li><button class="btn-1"><a href="pages/location.html" class="nav-item">Location</a></button></li>
-            <li><button class="btn-1"><a href="pages/contact.html" class="nav-item">Contact Us</a></button></li>
+            <li><button class="btn-3"><a href="pages/about.html" class="nav-item">About</a></button></li>
+            <li><button class="btn-3"><a href="pages/directions.html" class="nav-item">Directions</a></button></li>
+            <li><button class="btn-3"><a href="pages/location.html" class="nav-item">Location</a></button></li>
+            <li><button class="btn-3"><a href="pages/contact.html" class="nav-item">Contact Us</a></button></li>
                            
         </ul>          
          
@@ -120,13 +120,20 @@
     <!-- Directions to the store container -->
     <div class="directions">
 
-      <a href="https://maps.apple.com/?address=339+E+Pacific+Coast+Hwy+Hermosa+Beach,+CA+90254">
-        <h1>Directions</h1>
-      </a>
+      <div class="title-button-container">
+        <a href="https://maps.apple.com/?address=339+E+Pacific+Coast+Hwy+Hermosa+Beach,+CA+90254">
+          <button class="btn-2">
+            <h2>Directions</h2>
+          </button>
+        </a>
+      </div>
 
-      <a href="https://maps.apple.com/?address=339+E+Pacific+Coast+Hwy+Hermosa+Beach,+CA+90254">
-        <p>339 E Pacific Coast Highay, Hermosa Beach, CA 90254</p>
-      </a>
+      <div class="compact-description">
+          <a href="https://maps.apple.com/?address=339+E+Pacific+Coast+Hwy+Hermosa+Beach,+CA+90254">
+            <p>339 E Pacific Coast Highay, Hermosa Beach, CA 90254</p>
+          </a>
+      </div>
+
 
       <div class="city-images"> 
 
@@ -142,14 +149,24 @@
       <a href="https://maps.apple.com/?address=737+2nd+st+Hermosa+Beach,+CA+90254">
         <h2>Free Public Parking Nearby</h2>
       </a>
-
-      <a href="https://maps.apple.com/?address=737+2nd+st+Hermosa+Beach,+CA+90254">
-        <p>Parking Lot E - 24 spaces - 2hr parking</p>
-      </a>
-
+      
       <a href="https://www.hermosabeach.gov/home/showdocument?id=12535">
         <p>Public Parking Map</p>
       </a>
+
+      <div class="title-button-container">
+          <a href="https://maps.apple.com/?address=737+2nd+st+Hermosa+Beach,+CA+90254">
+            <button class="btn-2">
+              <h2>Parking Lot E</h2>
+            </button>
+          </a>
+      </div>
+
+      <a href="https://maps.apple.com/?address=737+2nd+st+Hermosa+Beach,+CA+90254">
+        <p>24 spaces - 2hr parking</p>
+      </a>
+
+      
       
       <!-- Drone Image of Parking Lot -->
        <div class="drone-parking">
@@ -163,10 +180,15 @@
     <!-- Daily Specials Section -->
 
   <div class="short-menu-container">
-    <h1>Daily Specials</h1>
     
+    <div class="page-button-container">
+        <button class="btn-1">
+          <h1>Daily Deals</h1>
+        </button>
+    </div>
+
     <div class="short-menu-category">
-      <h3>MEAT</h3>
+      <h3>MEAT SPECIALS</h3>
     </div>
     
     <div class="short-menu">
@@ -221,7 +243,8 @@
 
       <div class="daily-wine-title">
         <h2>Name</h2>
-        <p>Source</p>
+        <p>region</p>
+        <p>winery</p>
         <p>Category</p>
         <p>$XX.XX</p>
       </div>
@@ -242,8 +265,13 @@
       <div class="category">
          <img src="images/sommelier.png">
       </div>
-      <div class="wine-list">
-        <h2>Wine List</h2>
+      
+      <div class="wine-list-button-container">
+          <button class="btn-1">
+              <div class="wine-list">
+                <h2>Wine List</h2>
+              </div>
+          </button>
       </div>
 
     </div>
