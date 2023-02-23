@@ -23,7 +23,7 @@
   justify-items: center;
   justify-content: space-around;
   position: relative;
-  padding: 15px;
+  padding: 0px;
   padding-bottom: 50px;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .drone-parking img{
-  position: absolute;
+  width: 100%;
   
   
 }
