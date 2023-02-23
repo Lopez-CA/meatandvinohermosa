@@ -140,6 +140,8 @@
 }
 
 
+
+
 .wine-special-container {
   display: grid;
   grid-template-columns: 1fr 1fr;  
@@ -154,6 +156,13 @@
   
   
 }
+
+
+.daily-wine-info {
+  position: relative;
+  padding-top: 0px;
+}
+
 
 .daily-wine-title {
   padding-left: 450px;
@@ -279,6 +288,8 @@
 
 .daily-wine-title {
   padding-left: 0px;
+  position: relative;
+  bottom: 50px;
 }
 
 
