@@ -81,7 +81,7 @@
   display: inline-block;
   /* width:  300px;
   height: 120px; */
-  padding: 0px 60px;
+  padding: 0px 50px;
   border: none;
   color: var(--primary);
   background-color: var(--black);
@@ -184,7 +184,7 @@
   /* width:  300px;
   height: 120px; */
   height: 55px;
-  padding: 0px 10px;
+  padding: 0px 50px;
   border: none;
   background-color: var(--night);
   border-radius: 35px;
@@ -296,7 +296,7 @@
 
 
   .btn-1 {
-    padding: 0px 50px;
+    padding: 0px 70px;
   }
 
   .btn-1 h1 {
