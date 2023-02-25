@@ -7,3 +7,34 @@
 
 
 }
+
+.family {
+  position: absolute;
+  top: 25%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  max-width: 40%;
+ 
+}
+
+.background {
+  height: 200px;
+}
+
+
+/* change for mobile  */
+@media (max-width: 768px) {
+
+
+.family {
+  top: 27%;
+  left: 40%;
+  max-width: 70%;
+}
+
+#parking img {
+  height: 300px;
+}
+
+
+}

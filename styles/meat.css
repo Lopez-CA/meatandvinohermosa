@@ -15,7 +15,7 @@
   display: grid;
   padding-top: 50px;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   align-content: center;
   /* background-color: aqua; */
 
@@ -120,20 +120,17 @@
 .store-heading {
   display: grid;
   align-content: center;
-  background-color: black;
-  border-bottom: 3px solid var(--primary);
-  
+  background-color: var(--night);
+  border-bottom: 3px solid var(--primary);  
 }
 
 .store-heading h4 {
   text-align: center;
 }
 
-
 .meat-item-container {
   padding-bottom: 30px;
 }
-
 
 .meat-item {
  display: grid;
@@ -142,20 +139,11 @@
 
 }
 
-
-.meat-item-title {
-  
-  /* background-color: chartreuse; */
-}
-
 .meat-item-title h4 {
 
   color: black;
   text-align: center;
 }
-
-
-
 
 .meat-item-photo {
   display: grid;
@@ -166,11 +154,6 @@
 .meat-item-photo img{
   height: 300px;
 }
-
-.meat-item-info {
-  /* background-color: blueviolet; */
-}
-
 
 .meat-item-info h3{
   color: black;
@@ -184,24 +167,16 @@
   .meat-intro {
     object-fit: cover;
     height: auto;
-
   }
-  
-
-
 
   .steak-list {
     grid-template-columns: 1fr;
   }
 
-.meat-item {
-  
-}
-
 
   .meat-categories {
     grid-template-columns: 1fr;
-    padding-bottom: 30px;
+    padding-bottom: 120px;
   
   }
 

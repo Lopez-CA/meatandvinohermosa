@@ -18,9 +18,22 @@
 .store-heading {
   display: grid;
   justify-items: center;
-  background-color: black;
+  background-color: var(--black);
   border-bottom: 3px solid var(--primary);
 }
+
+.store-heading h4 {
+  color: var(--light);
+}
+
+
+.wine-description {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: var(--night);
+  padding: 0px 300px;
+}
+
 
 .store-category {
   display: grid;
@@ -213,6 +226,11 @@
 .wine-info {
   padding-left: 20px;
   padding-right: 20px;
+}
+
+
+.wine-description {
+  padding: 0;
 }
 
 
