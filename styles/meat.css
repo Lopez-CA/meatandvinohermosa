@@ -220,10 +220,10 @@
   }
 
  
-.about-grading {
-  top: 70%;
-  left: 25%;
-}
+  .about-grading {
+    bottom: 10%;
+    left: 25%;
+  }
   
   
 }
