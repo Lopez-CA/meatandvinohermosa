@@ -17,7 +17,7 @@ body {
   /* This style below will be inherited */
   font-family:Arial, Helvetica, sans-serif;
   color: var(--light);
-  background-color: var(--black);
+  background-color: var(--night);
   margin: 0;
 }
 

@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 0;
   padding-top: 60px;
-  padding-bottom: 100px;
+  padding-bottom: 60px;
   grid-column-gap: 0;
   grid-row-gap: 0;
   justify-content: center;
@@ -56,9 +56,11 @@
  
 }
 
+
+
 .directions {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 150px;
+  padding-bottom: 200px;
   position: relative;
   justify-content: space-around;
 }
@@ -71,7 +73,7 @@
   justify-items: center;
   justify-content: space-around;
   position: relative;
-  padding-top: 50px;
+  padding-top: 60px;
   padding-bottom: 150px;
 }
 
@@ -81,7 +83,7 @@
 
 .drone-parking img {
   width: 100%;
-  padding-top: 20px;
+  padding-top: 60px;
   
 }
 

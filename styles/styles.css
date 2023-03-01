@@ -9,7 +9,7 @@
   justify-items: space-between;  
   padding: 0;  
   z-index: 99;
-  padding-top: 100px; 
+  padding-top: 95px; 
 }
 
 .grid-container img{
@@ -220,7 +220,7 @@
 /* change for mobile  */
 @media (max-width: 768px) {
   .grid-container {
-    padding-top: 110px;
+    padding-top: 95px;
   }
 
   .prime-steaks {
