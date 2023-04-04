@@ -1,11 +1,11 @@
 :root {  
-  --primary: #f2762e;
+  --primary: #DE541E;
   --light: #f2e6d8;  
-  --medium: #03658c;
-  --dark: #03738c;
-  --highlight: #f2a516;
-  --night: #011c26;
-  --black:  #00090d;  
+  --medium: #195721;
+  --dark: #003e1f;
+  --highlight: #e3f2fd;
+  --night: #01110A;
+  --black:  #11270B;  
 }
 
 li{
@@ -16,7 +16,7 @@ li{
 body {
   /* This style below will be inherited */
   font-family:Arial, Helvetica, sans-serif;
-  color: var(--light);
+  color: var(--black);
   background-color: var(--night);
   margin: 0;
 }
