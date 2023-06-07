@@ -112,6 +112,15 @@
   padding-right: 150px;
 }
 
+.short-menu-item-grade h3 {
+  font-size: 22px;
+  color: var(--medium);
+  text-align: left;
+  padding-left: 25px;
+}
+
+
+
 
 .short-menu-item p {
   font-size: 22px;
@@ -237,7 +246,7 @@
   justify-items: space-around;
   height: 100%;
   padding-top: 50px;
-  padding-bottom: 0px;
+  padding-bottom: 50px;
   margin: 0px;
 }
 
@@ -254,8 +263,8 @@
 .intro {
   height: 400px;
   width: 100%; 
-  padding-top: 100px; 
-  padding-bottom: 100px;
+  padding-top: 0px; 
+  padding-bottom: 0px;
 }
   
   
