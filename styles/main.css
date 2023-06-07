@@ -17,7 +17,7 @@ body {
   /* This style below will be inherited */
   font-family:Arial, Helvetica, sans-serif;
   color: var(--black);
-  background-color: var(--night);
+  background-color: var(--light);
   margin: 0;
 }
 
@@ -41,7 +41,7 @@ h2 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   font-size: 25px;
-  color: var(--light);
+  color: var(--dark);
 }
 
 h2:hover {
