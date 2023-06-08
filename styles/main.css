@@ -21,6 +21,11 @@ body {
   margin: 0;
 }
 
+p {
+  color: var(--dark);
+
+
+}
 
 
 /* Hedings */
@@ -41,7 +46,7 @@ h2 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   font-size: 25px;
-  color: var(--dark);
+  color: var(--light);
 }
 
 h2:hover {

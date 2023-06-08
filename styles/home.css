@@ -108,11 +108,11 @@
   display: grid;
   grid-template-columns: 3fr .75fr .75fr;
   justify-items:flex-start;
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
-.short-menu-item-grade h3 {
+.short-menu-item h3 {
   font-size: 22px;
   color: var(--medium);
   text-align: left;
@@ -128,9 +128,7 @@
 }
 
 
-.short-menu-item h3 {
-  color: var(--primary);
-}
+
 
 .short-menu-item h3:hover {
   color: var(--black);
@@ -138,6 +136,9 @@
   
 }
 
+.short-menu-item-title {
+  text-align: left;
+}
 
 .short-menu-category {
   width: 100%;
