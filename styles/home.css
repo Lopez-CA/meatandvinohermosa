@@ -245,7 +245,6 @@
 .category-container{
   grid-template-columns: 1fr 1fr;
   justify-items: space-around;
-  height: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
   margin: 0px;
@@ -254,7 +253,7 @@
 .category-container img{
   height: 150px;
   width: 150px;
-  padding: 0px;    
+  padding: 20px;    
 }
 
 .category img{
