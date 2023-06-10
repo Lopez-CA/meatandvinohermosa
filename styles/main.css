@@ -46,7 +46,7 @@ h2 {
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   font-size: 25px;
-  color: var(--light);
+  color: var(--dark);
 }
 
 h2:hover {
