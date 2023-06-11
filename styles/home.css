@@ -110,6 +110,7 @@
   justify-items:flex-start;
   padding-left: 50px;
   padding-right: 50px;
+  text-align: left;
 }
 
 .short-menu-item h3 {
@@ -125,6 +126,7 @@
 .short-menu-item p {
   font-size: 22px;
   color: black;
+  text-align: left;
 }
 
 
