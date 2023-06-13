@@ -239,6 +239,21 @@
 }
 
 
+.phone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+.telephone {
+  text-align: center;
+  margin: 0 20px;
+}
+
+
 
 /* change for mobile  */
 @media (max-width: 768px) {
