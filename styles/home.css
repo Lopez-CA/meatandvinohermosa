@@ -1,13 +1,15 @@
 .category-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 0;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 40px;
   padding-bottom: 40px;
   grid-column-gap: 0;
   grid-row-gap: 0;
   justify-content: center;
   justify-items:center;  
+  background-color: var(--light);
 }
 
 .category {
@@ -57,7 +59,9 @@
  
 }
 
-
+.intro {
+  padding: 0;
+}
 
 .directions {
   padding-top: 10px;
@@ -90,15 +94,16 @@
 
 
 .short-menu-container {
-  padding-top: 20px;
-  margin: 0;    
+  padding-top: 100px;
+  margin: 0; 
+     
   }
 
 
 .short-menu {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: white;
+  background-color: var(--light);
   padding-top: 0px;
   padding-bottom: 50px;  
 }
@@ -125,7 +130,7 @@
 
 .short-menu-item p {
   font-size: 22px;
-  color: black;
+  color: var(--dark);
   text-align: left;
 }
 
@@ -146,11 +151,11 @@
   width: 100%;
   padding-top: 10px;
   padding-bottom: 40px;
-  background-color: white;
+  background-color: var(--light);
   }
 
 .short-menu-category h3 {
-  color: var(--black);
+  color: var(--dark);
   padding-top: 40px;
   margin: 0;
   font-size: 50px;
@@ -159,20 +164,10 @@
 
 
 
-.wine-special-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;  
-  align-items: center;
-  background-color: white;
-  padding-top: 20px;
 
-}
-
-.wine-special-container img  {
-  height: 500px;
   
   
-}
+
 
 
 .daily-wine-info {
@@ -230,6 +225,7 @@
 .compact-description {
   display: grid;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .wine-list-button-container {  
@@ -247,13 +243,15 @@
   padding-top: 40px;
   padding-bottom: 20px;
   margin: 0px 20px;
-  color: inherit;
-  text-decoration: none;
+  
+  
 }
+
+
 
 .telephone {
   text-align: center;
-  margin: 20px;
+  margin: 0 20px;
   height: 40px;
   
 
@@ -261,7 +259,7 @@
 
 .telephone img {
   padding-right: 20px;
-  margin: 20px;
+  margin: 0 20px;
 }
 
 
