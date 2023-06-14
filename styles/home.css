@@ -245,12 +245,17 @@
   align-items: center;
   height: 30px;
   padding: 20px;
-  margin: 0 20px;
+  margin: px 20px;
+  color: inherit;
+  text-decoration: none;
 }
 
 .telephone {
   text-align: center;
-  margin: 0 20px;
+  margin: 20px;
+  height: 40px;
+  
+
 }
 
 
