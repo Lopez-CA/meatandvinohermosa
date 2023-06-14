@@ -64,8 +64,8 @@
 }
 
 .directions {
-  padding-top: 10px;
-  padding-bottom: 200px;
+  padding-top: 0px;
+  padding-bottom: 40px;
   position: relative;
   justify-content: space-around;
 }
@@ -79,7 +79,7 @@
   justify-content: space-around;
   position: relative;
   padding-top: 60px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 .city-images img {
@@ -94,7 +94,7 @@
 
 
 .short-menu-container {
-  padding-top: 100px;
+  padding-top: 40px;
   margin: 0; 
      
   }
@@ -225,7 +225,7 @@
 .compact-description {
   display: grid;
   justify-content: center;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 
 .wine-list-button-container {  
@@ -240,7 +240,7 @@
   justify-content: center;
   align-items: center;
   height: 30px;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 20px;
   margin: 0px 20px;
   
