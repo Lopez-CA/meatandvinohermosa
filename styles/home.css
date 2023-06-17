@@ -71,6 +71,14 @@
 }
 
 
+
+.case-2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .city-images {
   display: grid;
   width: 100%;
@@ -134,7 +142,13 @@
   text-align: left;
 }
 
+.short-menu-item h2 {
+  text-align: left;
+}
 
+.short-menu-item h2:hover {
+  color: var(--dark);
+}
 
 
 .short-menu-item h3:hover {
