@@ -63,12 +63,45 @@
   padding: 0;
 }
 
+
+/*Contact Information */
+
+.phone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0px 20px;  
+}
+
+
+
+.telephone {
+  text-align: center;
+  margin: 0 20px;
+  height: 40px;
+}
+
+.telephone img {
+  padding-right: 20px;
+  margin: 0 20px;
+}
+
+
 .directions {
   padding-top: 0px;
   padding-bottom: 40px;
   position: relative;
   justify-content: space-around;
+ 
 }
+
+
+
+
+
 
 
 
@@ -249,32 +282,7 @@
 }
 
 
-.phone{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin: 0px 20px;
-  
-  
-}
 
-
-
-.telephone {
-  text-align: center;
-  margin: 0 20px;
-  height: 40px;
-  
-
-}
-
-.telephone img {
-  padding-right: 20px;
-  margin: 0 20px;
-}
 
 
 
