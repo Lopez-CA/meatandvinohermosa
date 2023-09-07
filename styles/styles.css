@@ -131,7 +131,7 @@
 .btn-2 h2 {
   font-size: 21px;
   text-align: center;
-  color: var(--light);
+  color: var(--text);
   
   
   
@@ -152,7 +152,7 @@
   bottom: 0;
   opacity: 0;
   content: "";
-  background-color: var(--night);
+  background-color: var(--black);
   
 }
 
