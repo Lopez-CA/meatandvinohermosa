@@ -107,7 +107,7 @@ a:link:hover {
 }
 
 a:visited {
-  color: var(--black);
+  color: var(--light);
   text-decoration: none;
 }
 
