@@ -70,9 +70,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20px;
-  padding-top: 25px;
-  padding-bottom: 30px;
+  height: 10px;
+  padding-top: 23px;
+  padding-bottom: 25px;
   margin: 0px 0px;  
   background-color: var(--medium);
   opacity: .8;
