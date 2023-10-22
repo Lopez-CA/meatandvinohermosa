@@ -295,6 +295,12 @@
 
 
 
+
+
+
+
+
+
 /* change for mobile  */
 @media (max-width: 768px) {
 
@@ -321,19 +327,24 @@
 
 
 .intro {
-  height: 500px;
+  height: 400px;
+  
   
 }
 
 .quote {  
   top: 50%;
-  left: 19%;
+  left: 20%;
   transform: translate(-50%, -50%);
   max-width: 80%; 
 }
 
 .background {
-  position: sticky;
+  height: 160%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   
   
   
   
