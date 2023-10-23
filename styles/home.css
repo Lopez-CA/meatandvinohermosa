@@ -116,7 +116,7 @@
 
 
 .directions {
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 40px;
   position: relative;
   justify-content: space-around;
@@ -212,7 +212,7 @@
 
 .drone-parking img {
   width: 100%;
-  padding-top: 60px;
+  padding-top: 20px;
   
 }
 
@@ -354,9 +354,13 @@
 }
 
 
+.location-section p{
+  color: var(--highlight);
+}
 
-
-
+.location-section h3{
+  color: var(--highlight);
+}
 
 
 
@@ -468,7 +472,7 @@
 
 
 .directions {
-  padding-top: 20px;
+  padding-top: 60px;
 }
 
 
