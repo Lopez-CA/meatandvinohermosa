@@ -407,7 +407,7 @@
 }
 
 .background {
-  height: 160%;
+  height: 128%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);  
@@ -472,7 +472,7 @@
 
 
 .directions {
-  padding-top: 60px;
+  padding-top: 45px;
 }
 
 

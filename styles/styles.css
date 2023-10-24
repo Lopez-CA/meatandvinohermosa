@@ -37,7 +37,7 @@
   justify-content: space-around;
   justify-items: center;
   text-align: center;
-  background-image: url(../images/ribeye-cutting-board-210-1.png);
+  background-image: url(../images/1-sunset-end-of-pier-square.jpg);
   /* background-color: darkolivegreen; */
 }
 
@@ -47,6 +47,30 @@
 }
 
 .prime-steaks img:hover {
+  transform: scale(1.05);
+  transition: scale .5s ease-in-out;
+  cursor: pointer;
+}
+
+
+.prime-steaks_2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around;
+  justify-items: center;
+  text-align: center;
+  background-image: url(../images/sunset_mid_pier_wide.jpg);
+  /* background-color: darkolivegreen; */
+}
+
+.prime-steaks_2 img {
+  height: 600px;
+    
+}
+
+.prime-steaks_2 img:hover {
   transform: scale(1.05);
   transition: scale .5s ease-in-out;
   cursor: pointer;
@@ -209,11 +233,22 @@
 
   .prime-steaks {
     grid-template-columns: 1fr;
-    background-image: url(../images/4-pier-columns-square-5.png);
+    background-image: url(../images/sidewalk.jpg);
 
   }
   
   .prime-steaks img{
+    padding-top: 5rem;
+    
+  }
+
+  .prime-steaks_2 {
+    grid-template-columns: 1fr;
+    background-image: url(../images/sunset_mid_pier_portrait.jpg);
+
+  }
+  
+  .prime-steaks_2 img{
     padding-top: 5rem;
     
   }
