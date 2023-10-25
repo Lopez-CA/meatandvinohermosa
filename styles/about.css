@@ -92,13 +92,21 @@
   height: 300px;
 }
 
+.about-intro {
+  right: 15%;
+}
+
+
 .about-title {
   width: 16%;
   top: 80%;
   left: 42%;
 }
 
-
+.about-us {
+  width: 18%;
+  top: 55%;
+}
 
 .about-images {
   grid-template-columns: 1fr;
