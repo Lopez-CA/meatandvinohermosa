@@ -53,6 +53,24 @@ padding-bottom: 20px;
   width: 50px;
 }
 
+.location-images {
+display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around;
+  justify-items: center;
+  text-align: center;
+  background-image: url(../images/1-sunset-end-of-pier-square.jpg);
+  /* background-color: darkolivegreen; */
+}
+
+.location-images img {
+  height: 600px;
+}
+
+
+
 
 /* change for mobile  */
 @media (max-width: 768px) {
@@ -72,6 +90,14 @@ position: relative;
   width: 380px;
 }
 
+.location-images {
+  grid-template-columns: 1fr;
+  background-image: none;
+}
 
+.location-images img{
+  padding-top: 5rem;
+  
+}
 
 }
