@@ -223,40 +223,6 @@
   width: 100%;  
 }  
 
-.short-menu {
-  grid-template-columns: 1fr;
-  padding-bottom: 50px;
-}
-
-
-.short-menu-category {
-  padding-left: 0px;
-  padding-bottom: 50px;
-}
-
-.short-menu-category h3 {
-  text-align: center;
-  font-size: 28px;
-}
-
-.short-menu-item {
-  grid-template-columns: 3fr 1fr 1fr;
-  padding-left: 40px;
-  padding-right: 0px;  
-}
-
-.daily-wine-title {
-  padding-left: 0px;
-  position: relative;
-  bottom: 50px;
-}
-
-
-.weekend-special img {
-  width: 40%
-}
-
-
 
 .directions {
   padding-top: 45px;
