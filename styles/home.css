@@ -1,55 +1,4 @@
-.category-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  grid-column-gap: 0;
-  grid-row-gap: 0;
-  justify-content: center;
-  justify-items:center;  
-  background-color: var(--light);
-}
 
-.category {
-  display: grid;
-  justify-content: center;
-  justify-items: center;  
-}
-
-.category img {
-  width: 200px;
-  margin: 0;
-  border-radius: 50%;
-  opacity: .75;
-  transition: transform .3s ease-in-out;  
-}
-
-.category img:hover {
-  opacity: 100%;
-  transition: opacity .2s ease-in-out;
-  transform: scale(1.1);
-  transition: scale .2s ease-in;  
-}
-
-
-/* category text titles */
-.titles {
-  display: grid;
-  grid-template-rows: 1fr;
-  justify-content: center;  
-}
-
-.titles:hover {  
-  color: var(--highlight);
-  transition: opacity .2s ease-in-out;
-  transform: scale(1.1);
-  transition: scale .2s ease-in;
-}
-
-
-/* introduction container */
 .intro {
   display: flex;
   position: relative;
@@ -141,7 +90,6 @@
       
 }
 
-
 .sausage-images {
   display: grid;
   width: 100%;
@@ -172,11 +120,6 @@
   color: var(--highlight);
 }
 
-
-.menu-category {
-  padding-bottom: 0px;
-}
-
 .rest-of-menu h3{
   color: var(--highlight);
 }
@@ -205,11 +148,6 @@
 }
 
 
-.landscape-image {
-  max-width: 50%;
-}
-
-
 .drone-parking img {
   width: 100%;
   padding-top: 20px;
@@ -217,140 +155,10 @@
 }
 
 
-.short-menu-container {
-  padding-top: 40px;
-  margin: 0; 
-     
- }
-
-
-.short-menu {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  background-color: var(--light);
-  padding-top: 0px;
-  padding-bottom: 50px;  
-}
-
-
-.short-menu-item {
-  display: grid;
-  grid-template-columns: 3fr .75fr .75fr;
-  justify-items:flex-start;
-  padding-left: 50px;
-  padding-right: 50px;
-  text-align: left;
-}
-
-.short-menu-item h3 {
-  font-size: 22px;
-  color: var(--medium);
-  text-align: left;
-  padding-left: 25px;
-}
-
-.short-menu-item p {
-  font-size: 22px;
-  color: var(--dark);
-  text-align: left;
-}
-
-.short-menu-item h2 {
-  text-align: left;
-}
-
-.short-menu-item h2:hover {
-  color: var(--dark);
-}
-
-
-.short-menu-item h3:hover {
-  color: var(--black);
-  cursor: pointer
-  
-}
-
-.short-menu-item-title {
-  text-align: left;
-}
-
-.short-menu-category {
-  width: 100%;
-  padding-top: 10px;
-  padding-bottom: 40px;
-  background-color: var(--light);
-  }
-
-.short-menu-category h3 {
-  color: var(--dark);
-  padding-top: 40px;
-  margin: 0;
-  font-size: 50px;
-}
-
-
-.daily-wine-info {
-  position: relative;
-  padding-top: 0px;
-}
-
-
-.daily-wine-title {
-  padding-left: 450px;
-}
-
-
-
-.daily-wine-title h2 {
-  color: var(--primary);
-}
-
-.daily-wine-title p {
-  color: black;
-}
-
-
-.daily-wine-item {
-  width: 200px;
-  justify-content: space-between;
-  background-color: white;
-  padding-bottom: 20px;
-}
-
-.daily-wine-item img {
-  padding-left: 40px;
-}
-
-
-.weekend-special {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  border-bottom: 3px solid var(--primary);
-  /* background-color: var(--medium); */
-}
-
-.weekend-special h2:hover {
-  cursor: pointer;
-}
-
-.weekend-special-title {
-  padding-bottom: 10px;
-}
-
-.wine-list {
-  padding-top: 0px;
-}
-
 .compact-description {
   display: grid;
   justify-content: center;
   padding-bottom: 20px;
-}
-
-.wine-list-button-container {  
-  padding-top: 20px;
-  text-align: center;
-  justify-items: center;
 }
 
 
@@ -370,27 +178,6 @@
 
 /* change for mobile  */
 @media (max-width: 768px) {
-
-
-.category-container{
-  grid-template-columns: 1fr 1fr;
-  justify-items: space-around;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  margin: 0px;
-}
-
-.category-container img{
-  height: 150px;
-  width: 150px;
-  padding: 20px;
-      
-}
-
-.category img{
-  margin: 0px;        
-}
-
 
 
 .intro {
@@ -435,40 +222,6 @@
 #parking img { 
   width: 100%;  
 }  
-
-.short-menu {
-  grid-template-columns: 1fr;
-  padding-bottom: 50px;
-}
-
-
-.short-menu-category {
-  padding-left: 0px;
-  padding-bottom: 50px;
-}
-
-.short-menu-category h3 {
-  text-align: center;
-  font-size: 28px;
-}
-
-.short-menu-item {
-  grid-template-columns: 3fr 1fr 1fr;
-  padding-left: 40px;
-  padding-right: 0px;  
-}
-
-.daily-wine-title {
-  padding-left: 0px;
-  position: relative;
-  bottom: 50px;
-}
-
-
-.weekend-special img {
-  width: 40%
-}
-
 
 
 .directions {

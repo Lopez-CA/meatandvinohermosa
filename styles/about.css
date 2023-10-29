@@ -1,17 +1,55 @@
-.family {
-  position: absolute;
-  top: 25%;
-  left: 22%;
+.about-us {
+  display: flex;
+  position: relative;
+  width: 60%;
+  top: 50%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 40%;
- 
+
 }
+
+.about-us p{
+  color: var(--primary);
+}
+
+
+
+.about-container {
+  padding-top: 150px;
+}
+
+
+
+.about-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: space-around;
+  justify-items: center;
+  text-align: center;
+  background-image: url(../images/waves\ crashing.jpg);
+  /* background-color: darkolivegreen; */
+}
+
+.about-images img {
+  height: 600px;
+    
+}
+
+.about-images img:hover {
+  transform: scale(1.05);
+  transition: scale .5s ease-in-out;
+  cursor: pointer;
+}
+
 
 
 
 
 /* change for mobile  */
 @media (max-width: 768px) {
+
 
 
 .family {
@@ -25,4 +63,33 @@
 }
 
 
+
+.about-title {
+  width: 16%;
+  top: 80%;
+  left: 42%;
 }
+
+.about-us {
+  width: 85%;
+  top: 45%;
+}
+
+.about-images {
+  grid-template-columns: 1fr;
+  padding-bottom: 20px; 
+
+}
+
+.about-images img{
+  padding-top: 5rem;
+  
+}
+
+ 
+  
+  
+  
+    
+}
+
