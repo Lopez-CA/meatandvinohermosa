@@ -1,6 +1,3 @@
-.intro {
-  top: 14%;
-}
 
 
 #map-container {
@@ -20,29 +17,33 @@
   left: 0;
   width: 100%;
   height: 600px;
+  padding-top: 30px;
   
 
 }
 
 
 .location-title-container {
-  display: grid;
-  position: relative;
+  display: flex;
+  justify-content: space-around;
   height: 50px;
-  top: 60%;
-  left: 48.5%;
-  padding-bottom: 50px;
+  top: 60%;  
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .location-title {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   position: relative;
   width: 50px;
 }
 
 .location-title-image {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   position: relative;
   width: 500px;
 }
@@ -63,22 +64,34 @@
   height: 600px;
 }
 
-
+.intro {
+  max-width: 90%;
+  left: 5%;
+}
 
 
 /* change for mobile  */
 @media (max-width: 768px) {
 
+
+.intro {
+  top: 14%;
+}  
+
+
+
 .location-title-container {
-  height: 50px;
+  padding-top: 40px;
+  height: 50%;
+  width: 100%;
   
 }
 
 .location-section {
-position: relative;
+  position: relative;
   width: 380px;
   left: 10%;
-  padding-top: 140px;
+  padding-top: 100px;
 }
 
 
@@ -90,11 +103,15 @@ position: relative;
 
 #map-container {
   width: 380px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .location-images {
+  margin-top: 50px;
+  padding-top: 0px;
   grid-template-columns: 1fr;
-  background-image: none;
+  background-image: url(../images/pier\ columns_6.jpg)
 }
 
 .location-images img{
@@ -102,4 +119,10 @@ position: relative;
   
 }
 
+
+
+
+
+
 }
+

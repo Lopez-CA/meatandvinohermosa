@@ -172,8 +172,17 @@
 }
 
 
+.business-hours {
+  padding-bottom: 50px;
+}
 
+.business-hours p{
+  color: var(--highlight);
+}
 
+.business-hours h3{
+  color: var(--highlight);
+}
 
 
 
@@ -244,6 +253,11 @@
   
 }
 
+.fresh-sausages-text {
+  width: 130%;
+  right: 15%;
+      
+}
 
 
   }
