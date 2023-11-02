@@ -72,9 +72,7 @@
   margin-top: 20px;
 }
 
-.compact-description p{
-  color: var(--primary);
-}
+
 
 .about-us-opener p{
   color: var(--primary);
@@ -161,6 +159,9 @@
   padding-bottom: 20px;
 }
 
+.compact-description p{
+  color: var(--primary);
+}
 
 .location-section p{
   color: var(--highlight);

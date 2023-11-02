@@ -1,3 +1,6 @@
+.intro {
+  top: 14%;
+}
 
 
 #map-container {
@@ -23,12 +26,12 @@
 
 
 .location-title-container {
-display: grid;
-position: relative;
-height: 50px;
-top: 60%;
-left: 48.5%;
-padding-bottom: 50px;
+  display: grid;
+  position: relative;
+  height: 50px;
+  top: 60%;
+  left: 48.5%;
+  padding-bottom: 50px;
 }
 
 .location-title {
@@ -45,7 +48,7 @@ padding-bottom: 50px;
 }
 
 .location-images {
-display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -74,7 +77,15 @@ display: grid;
 .location-section {
 position: relative;
   width: 380px;
-  left: 40%;
+  left: 10%;
+  padding-top: 140px;
+}
+
+
+.location-title-image {
+  width: 300px;
+  top: 150%;
+  padding-top: 20px;
 }
 
 #map-container {
