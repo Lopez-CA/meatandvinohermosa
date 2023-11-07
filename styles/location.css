@@ -45,7 +45,7 @@
   align-items: center;
   justify-content: space-around;
   position: relative;
-  width: 500px;
+  width: 400px;
 }
 
 .location-images {
@@ -97,7 +97,7 @@
 
 .location-title-image {
   width: 300px;
-  top: 150%;
+  top: 100%;
   padding-top: 20px;
 }
 
